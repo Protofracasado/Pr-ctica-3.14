@@ -1,0 +1,68 @@
+body{
+    font-family: 'Arial', Courier, monospace;
+    background-color: rgba(21, 156, 156, 0.363);
+}
+
+header{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+
+nav{
+    text-align: center;
+    font-size: 25px; 
+}
+
+a.menu{
+    text-decoration: none;
+}
+
+a.menu:hover{
+    color: red;
+    background-color: yellow;
+}
+
+a.apple:link{
+    background-color: white;
+}
+
+a.apple:visited{
+    background-color: blue;
+    color: white;
+}
+
+a.pixar{
+    background-color: white;
+    color: blue;
+}
+
+p{
+    font-size: 12px
+}
+
+p.rojo::first-line{
+    font-size: 15px;
+    color: red;
+    font-style: bold;
+}
+
+header span{
+    font-size: 100px;
+    color: black;
+}
+
+span.menu{
+    position: relative;
+    left: 5px;
+}
+
+p.imagen{
+    text-align: right;
+}
+
+img{
+    position: relative;
+    float: right;
+    width: 300px;
+}
